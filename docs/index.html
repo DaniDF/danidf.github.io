@@ -48,7 +48,8 @@
                             <img src="media/daniele_profile_picture.webp" width="800" height="800" class="bg-white img-fluid mb-4 p-2 rounded-circle shadow w-50" title="Profile picture"/>
                             <h1 class="display-5 fw-bold mb-3 text-dark" title="Daniele Foschi">Daniele Foschi</h1>
                             <p class="mb-4 pe-sm-5 ps-sm-5" title="Presentation">Computer engineer with a deep passion for the cosmos and its exploration, particularly interested in designing software solutions for the space sector.</p>
-                            <div class="d-inline-flex flex-wrap gap-2"> <a href="linkedin.com" aria-label="youtube" class="border-0 btn btn-primary lh-1 p-2 rounded-circle" target="_blank"><img src="media/linkedin-svgrepo-com.svg" width="20" height="20" class="text-light" title="Linkedin"> </a><a href="https://github.com/DaniDF" aria-label="youtube" class="border-0 btn btn-primary lh-1 p-2 rounded-circle" title="Github" target="_blank"><img src="media/github-142-svgrepo-com.svg" width="20" height="20" class="text-light"> </a> 
+                            <div class="d-inline-flex flex-wrap gap-2"> <a href="https://it.linkedin.com/in/daniele-foschi" aria-label="linkedin" class="border-0 btn btn-primary lh-1 p-2 rounded-circle" target="_blank" title="Linkedin Profile"><img src="media/linkedin-svgrepo-com.svg" width="20" height="20" class="text-light" title="Linkedin"> </a>
+                                <a href="https://github.com/DaniDF" aria-label="github" class="border-0 btn btn-primary lh-1 p-2 rounded-circle" title="Github Profile" target="_blank"><img src="media/github-142-svgrepo-com.svg" width="20" height="20" class="text-light"> </a> 
                             </div>
                         </div>
                     </div>
@@ -67,7 +68,11 @@
                             <div class="g-3 mb-4 row"> 
                                 <div class="col-md-4"> 
                                     <div class="bg-light h-100 p-4 rounded-1 shadow-sm">
-                                        <h2 class="display-4 fw-bold text-primary">26</h2>
+                                        <h2 class="display-4 fw-bold text-primary" id="year_old_cnt"></h2>
+                                        <script>
+                                            let yo = new Date(new Date() - new Date("1998-12-01")).getUTCFullYear() - 1970;
+                                            document.getElementById('year_old_cnt').innerHTML = yo;
+                                        </script>
                                         <h3 class="fw-bold h6 text-secondary">Years Old</h3>
                                     </div>                                     
                                 </div>
@@ -156,8 +161,7 @@
                                 </ul></a> 
                         </div>                         
                     </div>
-                    <div class="mt-5">
-                        <a href="https://github.com/DaniDF" class="btn btn-primary pb-2 pe-4 ps-4 pt-2" target="_blank">View All Projects</a>
+                    <div class="mt-5"><a href="https://github.com/DaniDF" class="btn btn-primary pb-2 pe-4 ps-4 pt-2" target="_blank">View All Projects</a>
                     </div>                     
                 </div>                 
             </section>
@@ -290,7 +294,8 @@
                         <div class="col-lg-3 col-sm-6 col-xl-4"> <a class="d-inline-flex fw-bold h2 lh-1 link-primary mb-0 text-decoration-none text-uppercase" href="#"> <span>Daniele Foschi</span></a> 
                         </div>
                         <div class="col-lg-auto col-sm-6 order-lg-last"> 
-                            <div class="d-inline-flex flex-wrap gap-2"> <a href="linkedin.com" aria-label="facebook" class="btn btn-outline-light lh-1 p-2 rounded-circle" target="_blank"><img src="media/linkedin-svgrepo-com.svg" width="20"> </a><a href="https://github.com/DaniDF" aria-label="facebook" class="btn btn-outline-light lh-1 p-2 rounded-circle" target="_blank"><img src="media/github-142-svgrepo-com.svg" width="20"> </a> 
+                            <div class="d-inline-flex flex-wrap gap-2"> <a href="linkedin.com" class="btn btn-outline-light lh-1 p-2 rounded-circle" target="_blank" title="Linkedin Profile" aria-label="linkedin"><img src="media/linkedin-svgrepo-com.svg" width="20"> </a>
+                                <a href="https://github.com/DaniDF" class="btn btn-outline-light lh-1 p-2 rounded-circle" target="_blank" title="Github Profile" aria-label="github"><img src="media/github-142-svgrepo-com.svg" width="20"> </a> 
                             </div>                             
                         </div>                         
                         <div class="col-md col-sm-6"> 
