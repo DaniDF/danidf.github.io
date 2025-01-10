@@ -32,6 +32,7 @@ html {
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #6346b8;
+  /*--bs-primary: #004225;*/
   --bs-secondary: #1c1434;
   --bs-success: #198754;
   --bs-info: #dfa097;
@@ -40,6 +41,7 @@ html {
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 99, 70, 184;
+  /*--bs-primary-rgb: 00, 67, 37;*/
   --bs-secondary-rgb: 28, 20, 52;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 223, 160, 151;
